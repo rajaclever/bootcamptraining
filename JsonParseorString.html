@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParsrIn/Stringify</title>
+</head>
+<body>
+    <p>JSON.parse is for "parsing" something that was received as a JSON.</p>
+    <p>JSON.stringify() is to create a JSON srtring out of an Object/aray</p>
+    <script>
+            var array = {name:'Rajashri',Dept:'Computer'};
+            var arrString =JSON.stringify(array);
+            console.log(arrString);
+    
+const myArr = ['simon', 'gomez', 'john'];
+
+const myArrStr = JSON.stringify(myArr);
+
+console.log(myArrStr);
+
+var obj = JSON.parse('{"firstName":"John", "lastName":"Doe"}');
+console.log(obj);
+
+    </script>
+  
+</body>
+</html>
